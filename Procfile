@@ -1,1 +1,1 @@
-web: gunicorn ltebands.wsgi --log-file -
+web: gunicorn --pythonpath ltebands ltebands.wsgi
